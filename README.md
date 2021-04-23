@@ -1,4 +1,4 @@
-## @superset-ui/legacy-plugin-chart-pivot-table
+## @arthanasti/legacy-plugin-chart-pivot-table
 
 [![Version](https://img.shields.io/npm/v/@superset-ui/legacy-plugin-chart-pivot-table.svg?style=flat-square)](https://www.npmjs.com/package/@superset-ui/legacy-plugin-chart-pivot-table)
 [![David (path)](https://img.shields.io/david/apache-superset/superset-ui-plugins.svg?path=packages%2Fsuperset-ui-legacy-plugin-chart-pivot-table&style=flat-square)](https://david-dm.org/apache-superset/superset-ui-plugins?path=packages/superset-ui-legacy-plugin-chart-pivot-table)
@@ -11,7 +11,7 @@ Configure `key`, which can be any `string`, and register the plugin. This `key` 
 lookup this chart throughout the app.
 
 ```js
-import PivottableChartPlugin from '@superset-ui/legacy-plugin-chart-pivot-table';
+import PivottableChartPlugin from '@arthanasti/legacy-plugin-chart-pivot-table';
 
 new PivottableChartPlugin().configure({ key: 'pivot-table' }).register();
 ```
