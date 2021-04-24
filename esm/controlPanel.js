@@ -17,7 +17,7 @@
  * under the License.
  */
 import { t } from '@superset-ui/core';
-import { D3_FORMAT_OPTIONS, D3_FORMAT_DOCS, formatSelectOptions, D3_TIME_FORMAT_OPTIONS } from '@superset-ui/chart-controls';
+import { D3_FORMAT_OPTIONS, D3_FORMAT_DOCS, formatSelectOptions, D3_TIME_FORMAT_OPTIONS } from '@arthanasti/chart-controls';
 export default {
   controlPanelSections: [{
     label: t('Query'),
